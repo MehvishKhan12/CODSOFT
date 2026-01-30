@@ -38,7 +38,7 @@ def preprocess_data(df):
     return df
 
 if __name__ == '__main__':
-    df = pd.read_csv(r"C:\Users\Sumay\Desktop\Yameen\Codesoft\DataScience\IMDb Movies India.csv\IMDb Movies India.csv", encoding='latin1')
+    df = pd.read_csv(r"C:\Users\CITS\Desktop\DataScience\Movie rating\IMDb Movies India.csv\IMDb Movies India.csv", encoding='latin1')
     df_cleaned = preprocess_data(df)
     print(df_cleaned.head())
     print(df_cleaned.info())
